@@ -1,6 +1,406 @@
 {
-  "updatedAt": "2026-10-20T23:30:00+09:00",
+  "updatedAt": "2026-10-20T23:44:47+09:00",
   "version": 1,
-  "note": "초기 파일. 자동 확인 작업이 덮어씁니다.",
-  "shops": {}
+  "shops": {
+    "sanpei": {
+      "name": "구로몬 산페이",
+      "dates": {
+        "2026-11-02": {
+          "status": "no_notice",
+          "summary": "黒門市場店 お知らせ에 11/2 휴업·시간변경 공지 없음 (최근 공지는 9월 행사 안내)",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://kuromon-sanpei.co.jp/category/event/kuromon/",
+              "quote": "방문일 관련 공지 없음 (최신: 2026-09-25 JAZZライブ 11/8 告知)"
+            }
+          ],
+          "checked": [
+            "https://kuromon-sanpei.co.jp/category/event/kuromon/",
+            "https://kuromon-sanpei.co.jp/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "tsuten": {
+      "name": "신세카이 (츠텐카쿠)",
+      "dates": {
+        "2026-11-02": {
+          "status": "no_notice",
+          "summary": "공식 X 최근 20개에 임시휴업·시간변경 공지 없음, 공식 영업안내는 정규 9:00~21:45",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://www.tsutenkaku.co.jp/annai/index.html",
+              "quote": "一般展望台 9:00～21:45 (임시휴업은 공식 X로 안내)"
+            },
+            {
+              "source": "x",
+              "url": "https://x.com/tsutenkaku",
+              "quote": "방문일 관련 공지 없음 (최신 2026-10-18)"
+            }
+          ],
+          "checked": [
+            "https://www.tsutenkaku.co.jp/annai/index.html",
+            "https://x.com/tsutenkaku"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "oren": {
+      "name": "야키토리 오렌",
+      "dates": {
+        "2026-11-02": {
+          "status": "open",
+          "summary": "TableCheck에서 11/2(월) 2명 1층 카운터 18:00·20:30·21:00 선택 가능 = 영업일 표시. 인스타 공지 없음",
+          "evidence": [
+            {
+              "source": "reservation",
+              "url": "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve",
+              "quote": "11月2日(月) 2名 1층 카운터: 18:00 / 20:30 / 21:00 표시"
+            }
+          ],
+          "checked": [
+            "https://www.instagram.com/yakitori_oren/",
+            "https://www.instagram.com/stories/yakitori_oren/",
+            "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve"
+          ],
+          "failed": [],
+          "availability": "11/2 2명 카운터 빈자리 있음 (시간 선택지 18:00·20:30·21:00, 예약 단계 미진입)",
+          "notes": "스토리 1장(3시간 전): この後1、2名様もしよければお待ちしております (당일 안내)",
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "kibitaki": {
+      "name": "炭火焼鳥きびたき",
+      "dates": {
+        "2026-11-02": {
+          "status": "open",
+          "summary": "TableCheck 예약상황표에서 11/2(월) 2명 카운터 18:00~23:30 전 시간 ○",
+          "evidence": [
+            {
+              "source": "reservation",
+              "url": "https://www.tablecheck.com/ja/shops/yakitori-kibitaki/reserve",
+              "quote": "予約状況 11/2(月) カウンター席 2名 18:00~23:30 ○"
+            }
+          ],
+          "checked": [
+            "https://www.tablecheck.com/ja/shops/yakitori-kibitaki/reserve"
+          ],
+          "failed": [],
+          "availability": "11/2 2명 카운터 빈자리 있음 (18:00~23:30 전부 ○)",
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "shinpachi": {
+      "name": "신파치 식당 난바난카이도리점",
+      "dates": {
+        "2026-11-03": {
+          "status": "no_notice",
+          "summary": "공식 점포안내: なんば南海通り店 7:00~23:00 定休日なし, 휴업 공지 없음",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://www.shinpachi-shokudo.com/",
+              "quote": "なんば南海通り店 7:00～23:00 / 定休日なし"
+            }
+          ],
+          "checked": [
+            "https://www.shinpachi-shokudo.com/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "kurumu": {
+      "name": "라멘 쿠루무",
+      "dates": {
+        "2026-11-03": {
+          "status": "unknown",
+          "summary": "스토리 1장(10/20 00:28 게시) 판독 실패로 확인 불완전. 11월 휴업 공지·달력 아직 없음 (10월 휴무는 화6·수·목8)",
+          "evidence": [
+            {
+              "source": "instagram",
+              "url": "https://www.instagram.com/p/Dd9GF0rAWDw/",
+              "postedAt": "2026-10-01",
+              "quote": "10月の休業日: 10/6(火)・7(水)・8(木)・14(水)・21(水)・28(水)"
+            },
+            {
+              "source": "story",
+              "url": "https://www.instagram.com/stories/ramenkurumu/",
+              "quote": "本日はスープ完売のため、営業を終了いたします (10/20 당일분, 9시간 전)"
+            }
+          ],
+          "checked": [
+            "https://www.instagram.com/ramenkurumu/",
+            "https://www.instagram.com/stories/ramenkurumu/",
+            "https://x.com/RamenKurumu"
+          ],
+          "failed": [
+            "인스타 스토리 1번째 장면(2026-10-20 00:28 KST 게시) 조회 확인 화면에 가려 판독 불가 (재시도 1회 후에도 동일)",
+            "X @RamenKurumu 최신 글 2025-05 (휴면 계정, 공지 없음)"
+          ],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        },
+        "2026-11-04": {
+          "status": "unknown",
+          "summary": "스토리 1장(10/20 00:28 게시) 판독 실패로 확인 불완전. 참고: 10월 달력상 매주 수요일 휴무 → 11/4(수) 정기휴무 가능성 높음, 11월 달력 아직 미게시",
+          "evidence": [
+            {
+              "source": "instagram",
+              "url": "https://www.instagram.com/p/Dd9GF0rAWDw/",
+              "postedAt": "2026-10-01",
+              "quote": "10月の休業日: 10/6(火)・7(水)・8(木)・14(水)・21(水)・28(水)"
+            },
+            {
+              "source": "story",
+              "url": "https://www.instagram.com/stories/ramenkurumu/",
+              "quote": "本日はスープ完売のため、営業を終了いたします (10/20 당일분, 9시간 전)"
+            }
+          ],
+          "checked": [
+            "https://www.instagram.com/ramenkurumu/",
+            "https://www.instagram.com/stories/ramenkurumu/",
+            "https://x.com/RamenKurumu"
+          ],
+          "failed": [
+            "인스타 스토리 1번째 장면(2026-10-20 00:28 KST 게시) 조회 확인 화면에 가려 판독 불가 (재시도 1회 후에도 동일)",
+            "X @RamenKurumu 최신 글 2025-05 (휴면 계정, 공지 없음)"
+          ],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "rikuro": {
+      "name": "리쿠로 오지상 난바본점",
+      "dates": {
+        "2026-11-03": {
+          "status": "no_notice",
+          "summary": "공지 목록에 난바본점 휴업 없음(다른 지점 공지뿐). 본점 9:00~20:00",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://www.rikuro.co.jp/shoplist/134.html",
+              "quote": "なんば本店 9：00～20：00, 휴업 공지 없음"
+            }
+          ],
+          "checked": [
+            "https://www.rikuro.co.jp/newsother",
+            "https://www.rikuro.co.jp/shoplist/134.html"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "ypr": {
+      "name": "YP류 소에몬초 본점",
+      "dates": {
+        "2026-11-03": {
+          "status": "open",
+          "summary": "OWST 공식 예약에서 11/3(화) 2명 점심 11:30~13:00 ◎ 표시. 인스타 공지 없음, 활성 스토리 없음",
+          "evidence": [
+            {
+              "source": "reservation",
+              "url": "https://ypryu.owst.jp/",
+              "quote": "11/3◎ / 2名: ◎11:30 ◎12:00 ◎12:30 ◎13:00 (저녁 17:00~21:00도 ◎)"
+            }
+          ],
+          "checked": [
+            "https://www.instagram.com/ypryu_official/",
+            "https://www.instagram.com/stories/ypryu_official/",
+            "https://ypryu.owst.jp/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "nishihara": {
+      "name": "장어 니시하라",
+      "dates": {
+        "2026-11-03": {
+          "status": "no_notice",
+          "summary": "타베로그 정기휴무 월요일·第2火曜 → 11/3(火, 첫째 화요일·공휴일)은 해당 없음. 공지 없음",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://tabelog.com/osaka/A2701/A270104/27081196/",
+              "quote": "火~日 11:00-14:00 / 17:00-21:00, 定休日 月・第２火曜日"
+            }
+          ],
+          "checked": [
+            "https://tabelog.com/osaka/A2701/A270104/27081196/"
+          ],
+          "failed": [
+            "tabelog 1차 fetch 403(접속 집중) → 브라우저 재시도 1회 성공"
+          ],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "kita": {
+      "name": "타코우메 북점",
+      "dates": {
+        "2026-11-03": {
+          "status": "open",
+          "summary": "공식 점포 페이지 북점 \"10月、11月は無休\" 명시 → 11/3(祝) 영업 (土日祝 15:00~22:30)",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://takoume.jp/store/",
+              "quote": "たこ梅 北店 お休み: 10月、11月は無休 / 土日祝 15:00~22:30"
+            }
+          ],
+          "checked": [
+            "https://takoume.jp/store/",
+            "https://www.instagram.com/takoume_kita/",
+            "https://www.instagram.com/stories/takoume_kita/"
+          ],
+          "failed": [],
+          "notes": "스토리 1장(6시간 전): 今日も16時から営業してまーす！(당일 안내)",
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "hashi": {
+      "name": "하시모토야",
+      "dates": {
+        "2026-11-04": {
+          "status": "no_notice",
+          "summary": "최근 게시물: 9/8 영업 재개·정리권 10:05경 배부. 11월 휴업 공지 없음, 활성 스토리 없음",
+          "evidence": [
+            {
+              "source": "instagram",
+              "url": "https://www.instagram.com/p/Dc3TraePxYi/",
+              "postedAt": "2026-09-04",
+              "quote": "9月8日(火)より営業を再開…整理券配布時間を10時05分頃〜に変更"
+            }
+          ],
+          "checked": [
+            "https://www.instagram.com/hashimotoyaspice/",
+            "https://www.instagram.com/stories/hashimotoyaspice/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "lepremier": {
+      "name": "르 프르미에 카페 신사이바시본점",
+      "dates": {
+        "2026-11-04": {
+          "status": "no_notice",
+          "summary": "정규 영업 월~목 10:00~23:30 (첫째 목요일 12시 개점 규칙은 11/4 수요일과 무관). 인스타 공지 없음",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://le-premier-cafe.com/store/shinsaibashi/",
+              "quote": "月-木 10:00～23:30 ※毎月第一木曜日は12時~"
+            }
+          ],
+          "checked": [
+            "https://le-premier-cafe.com/store/shinsaibashi/",
+            "https://www.instagram.com/le.premier.cafe/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "tanaka": {
+      "name": "다나카 중화소바",
+      "dates": {
+        "2026-11-04": {
+          "status": "no_notice",
+          "summary": "X 최근 글은 10/20(화) 당일 휴무 공지뿐(11/4 수요일과 무관). 11/4 관련 공지 없음",
+          "evidence": [
+            {
+              "source": "x",
+              "url": "https://x.com/In0jGSacvMh3Oyl/status/2112469690006319143",
+              "postedAt": "2026-10-20",
+              "quote": "本日、火曜日はおやすみさせて頂きます。(10/20 당일분)"
+            }
+          ],
+          "checked": [
+            "https://x.com/In0jGSacvMh3Oyl"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "endo": {
+      "name": "엔도 스시 (중앙시장)",
+      "dates": {
+        "2026-11-05": {
+          "status": "no_notice",
+          "summary": "중앙도매시장 2026 휴개장 달력에서 11/5(목)은 개장일(11/4는 청과부만 휴업). 가게 자체 공지 없음",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://honjo-osaka.or.jp/news/2026_calendar/",
+              "quote": "令和8年 臨時休開場日カレンダー: 11/5(木) 표시 없음=개장 (PDF r08.pdf)"
+            },
+            {
+              "source": "web",
+              "url": "https://www.endo-sushi.com/",
+              "quote": "방문일 관련 공지 없음"
+            }
+          ],
+          "checked": [
+            "https://www.endo-sushi.com/",
+            "https://honjo-osaka.or.jp/news/2026_calendar/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    },
+    "h551": {
+      "name": "551호라이 본점",
+      "dates": {
+        "2026-11-05": {
+          "status": "no_notice",
+          "summary": "본점 2026 휴업일 10/6·10/20·11/10·11/17·12/31 → 11/5(목) 미포함. 토픽에 휴업 공지 없음",
+          "evidence": [
+            {
+              "source": "web",
+              "url": "https://www.551horai.co.jp/shop/list/13/",
+              "quote": "定休日 第１・３火曜日 2026年【10/6(火)・20(火)・11/10(火)・17(火)・12/31(水)】"
+            }
+          ],
+          "checked": [
+            "https://www.551horai.co.jp/shop/list/13/",
+            "https://www.551horai.co.jp/topics/"
+          ],
+          "failed": [],
+          "checkedAt": "2026-10-20T23:44:47+09:00",
+          "mode": "FULL"
+        }
+      }
+    }
+  }
 }
