@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T02:19:56+09:00",
+  "updatedAt": "2026-10-21T03:15:21+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -130,27 +130,25 @@
         }
       }
     },
-    "ypr": {
-      "name": "YP류 소에몬초 본점",
+    "kitan": {
+      "name": "기탄 호젠지",
       "dates": {
         "2026-11-03": {
           "status": "open",
-          "summary": "OWST 공식 예약에서 11/3(화) 2명 점심 11:30~13:00 ◎ 표시. 인스타 공지 없음, 활성 스토리 없음",
+          "summary": "11/3 12:00 2명 타베로그 예약 완료. 영업 공지 변화는 정기 확인에서 계속 봅니다",
           "evidence": [
             {
               "source": "reservation",
-              "url": "https://ypryu.owst.jp/",
-              "quote": "11/3◎ / 2名: ◎11:30 ◎12:00 ◎12:30 ◎13:00 (저녁 17:00~21:00도 ◎)"
+              "url": "https://tabelog.com/osaka/A2701/A270202/27128100/",
+              "quote": "予約完了 11月3日(火) 12:00 2名"
             }
           ],
           "checked": [
-            "https://www.instagram.com/ypryu_official/",
-            "https://www.instagram.com/stories/ypryu_official/",
-            "https://ypryu.owst.jp/"
+            "https://tabelog.com/osaka/A2701/A270202/27128100/"
           ],
           "failed": [],
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
+          "checkedAt": "2026-10-21T03:15:21+09:00",
+          "mode": "MANUAL"
         }
       }
     },
@@ -301,5 +299,14 @@
     }
   },
   "doneSyncAt": "2026-10-21T01:17:28+09:00",
-  "choices": {}
+  "choices": {},
+  "bookings": {
+    "kitan|2026-11-03": {
+      "state": "booked",
+      "time": "12:00",
+      "party": 2,
+      "summary": "숙성 흑모와규 야키니쿠 런치 4,180엔×2 · 호리고타쓰 개실(신발 벗음) · 세트에 우설 없으면 추가 요청함 · 취소료 전날 50%, 당일 100%",
+      "updatedAt": "2026-10-21T03:15:21+09:00"
+    }
+  }
 }
