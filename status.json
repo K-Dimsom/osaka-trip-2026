@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:44:47+09:00",
+  "updatedAt": "2026-10-21T00:14:01+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -58,12 +58,12 @@
       "dates": {
         "2026-11-02": {
           "status": "open",
-          "summary": "TableCheck에서 11/2(월) 2명 1층 카운터 18:00·20:30·21:00 선택 가능 = 영업일 표시. 인스타 공지 없음",
+          "summary": "TableCheck 예약 달력상 11/2(월) 영업일. 단 2명 1층 카운터는 만석(가능 여부 검색 결과 이용 가능 시간 없음, 대기 등록만 가능). 인스타 공지 없음",
           "evidence": [
             {
               "source": "reservation",
               "url": "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve",
-              "quote": "11月2日(月) 2名 1층 카운터: 18:00 / 20:30 / 21:00 표시"
+              "quote": "11月2日(月) 2명 1층 카운터: 선택한 시간에 이용 가능 시간이 없습니다 (대기자 등록 가능)"
             }
           ],
           "checked": [
@@ -72,10 +72,10 @@
             "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve"
           ],
           "failed": [],
-          "availability": "11/2 2명 카운터 빈자리 있음 (시간 선택지 18:00·20:30·21:00, 예약 단계 미진입)",
+          "availability": "11/2 2명 카운터 빈자리 없음 (10/21 00:00경 가능 여부 검색으로 확인. 이전 기록의 18:00·20:30·21:00은 시간 목록일 뿐 빈자리가 아니었음)",
           "notes": "스토리 1장(3시간 전): この後1、2名様もしよければお待ちしております (당일 안내)",
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
+          "checkedAt": "2026-10-21T00:14:01+09:00",
+          "mode": "MANUAL_FIX"
         }
       }
     },
