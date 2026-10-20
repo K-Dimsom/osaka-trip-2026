@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T02:07:23+09:00",
+  "updatedAt": "2026-10-21T02:19:56+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -18,34 +18,6 @@
           "checked": [
             "https://kuromon-sanpei.co.jp/category/event/kuromon/",
             "https://kuromon-sanpei.co.jp/"
-          ],
-          "failed": [],
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
-        }
-      }
-    },
-    "tsuten": {
-      "name": "신세카이 (츠텐카쿠)",
-      "dates": {
-        "2026-11-02": {
-          "status": "no_notice",
-          "summary": "공식 X 최근 20개에 임시휴업·시간변경 공지 없음, 공식 영업안내는 정규 9:00~21:45",
-          "evidence": [
-            {
-              "source": "web",
-              "url": "https://www.tsutenkaku.co.jp/annai/index.html",
-              "quote": "一般展望台 9:00～21:45 (임시휴업은 공식 X로 안내)"
-            },
-            {
-              "source": "x",
-              "url": "https://x.com/tsutenkaku",
-              "quote": "방문일 관련 공지 없음 (최신 2026-10-18)"
-            }
-          ],
-          "checked": [
-            "https://www.tsutenkaku.co.jp/annai/index.html",
-            "https://x.com/tsutenkaku"
           ],
           "failed": [],
           "checkedAt": "2026-10-20T23:44:47+09:00",
