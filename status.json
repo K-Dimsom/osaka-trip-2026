@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T01:21:29+09:00",
+  "updatedAt": "2026-10-21T02:07:23+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -97,28 +97,6 @@
           ],
           "failed": [],
           "availability": "11/2 2명 카운터 빈자리 있음 (18:00~23:30 전부 ○)",
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
-        }
-      }
-    },
-    "shinpachi": {
-      "name": "신파치 식당 난바난카이도리점",
-      "dates": {
-        "2026-11-04": {
-          "status": "no_notice",
-          "summary": "일정 변경(11/3→11/4)으로 다음 확인 때 11/4 기준 재판정. 직전 확인: 공식 점포안내: なんば南海通り店 7:00~23:00 定休日なし, 휴업 공지 없음",
-          "evidence": [
-            {
-              "source": "web",
-              "url": "https://www.shinpachi-shokudo.com/",
-              "quote": "なんば南海通り店 7:00～23:00 / 定休日なし"
-            }
-          ],
-          "checked": [
-            "https://www.shinpachi-shokudo.com/"
-          ],
-          "failed": [],
           "checkedAt": "2026-10-20T23:44:47+09:00",
           "mode": "FULL"
         }
@@ -223,31 +201,6 @@
           "failed": [
             "tabelog 1차 fetch 403(접속 집중) → 브라우저 재시도 1회 성공"
           ],
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
-        }
-      }
-    },
-    "kita": {
-      "name": "타코우메 북점",
-      "dates": {
-        "2026-11-03": {
-          "status": "open",
-          "summary": "공식 점포 페이지 북점 \"10月、11月は無休\" 명시 → 11/3(祝) 영업 (土日祝 15:00~22:30)",
-          "evidence": [
-            {
-              "source": "web",
-              "url": "https://takoume.jp/store/",
-              "quote": "たこ梅 北店 お休み: 10月、11月は無休 / 土日祝 15:00~22:30"
-            }
-          ],
-          "checked": [
-            "https://takoume.jp/store/",
-            "https://www.instagram.com/takoume_kita/",
-            "https://www.instagram.com/stories/takoume_kita/"
-          ],
-          "failed": [],
-          "notes": "스토리 1장(6시간 전): 今日も16時から営業してまーす！(당일 안내)",
           "checkedAt": "2026-10-20T23:44:47+09:00",
           "mode": "FULL"
         }
@@ -375,5 +328,6 @@
       }
     }
   },
-  "doneSyncAt": "2026-10-21T01:17:28+09:00"
+  "doneSyncAt": "2026-10-21T01:17:28+09:00",
+  "choices": {}
 }
