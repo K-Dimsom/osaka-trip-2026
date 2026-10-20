@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T01:17:28+09:00",
+  "updatedAt": "2026-10-21T01:21:29+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -105,9 +105,9 @@
     "shinpachi": {
       "name": "신파치 식당 난바난카이도리점",
       "dates": {
-        "2026-11-03": {
+        "2026-11-04": {
           "status": "no_notice",
-          "summary": "공식 점포안내: なんば南海通り店 7:00~23:00 定休日なし, 휴업 공지 없음",
+          "summary": "일정 변경(11/3→11/4)으로 다음 확인 때 11/4 기준 재판정. 직전 확인: 공식 점포안내: なんば南海通り店 7:00~23:00 定休日なし, 휴업 공지 없음",
           "evidence": [
             {
               "source": "web",
@@ -130,34 +130,6 @@
         "2026-11-03": {
           "status": "unknown",
           "summary": "스토리 1장(10/20 00:28 게시) 판독 실패로 확인 불완전. 11월 휴업 공지·달력 아직 없음 (10월 휴무는 화6·수·목8)",
-          "evidence": [
-            {
-              "source": "instagram",
-              "url": "https://www.instagram.com/p/Dd9GF0rAWDw/",
-              "postedAt": "2026-10-01",
-              "quote": "10月の休業日: 10/6(火)・7(水)・8(木)・14(水)・21(水)・28(水)"
-            },
-            {
-              "source": "story",
-              "url": "https://www.instagram.com/stories/ramenkurumu/",
-              "quote": "本日はスープ完売のため、営業を終了いたします (10/20 당일분, 9시간 전)"
-            }
-          ],
-          "checked": [
-            "https://www.instagram.com/ramenkurumu/",
-            "https://www.instagram.com/stories/ramenkurumu/",
-            "https://x.com/RamenKurumu"
-          ],
-          "failed": [
-            "인스타 스토리 1번째 장면(2026-10-20 00:28 KST 게시) 조회 확인 화면에 가려 판독 불가 (재시도 1회 후에도 동일)",
-            "X @RamenKurumu 최신 글 2025-05 (휴면 계정, 공지 없음)"
-          ],
-          "checkedAt": "2026-10-20T23:44:47+09:00",
-          "mode": "FULL"
-        },
-        "2026-11-04": {
-          "status": "unknown",
-          "summary": "스토리 1장(10/20 00:28 게시) 판독 실패로 확인 불완전. 참고: 10월 달력상 매주 수요일 휴무 → 11/4(수) 정기휴무 가능성 높음, 11월 달력 아직 미게시",
           "evidence": [
             {
               "source": "instagram",
