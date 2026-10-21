@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T15:31:04+09:00",
+ "updatedAt": "2026-10-21T15:33:10+09:00",
  "version": 1,
  "shops": {
   "sanpei": {
@@ -13,6 +13,11 @@
        "source": "web",
        "url": "https://kuromon-sanpei.co.jp/category/event/kuromon/",
        "quote": "방문일 관련 공지 없음 (최신: 2026-09-25 晩秋のJAZZライブ 11/8)"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E9%96%80%E4%B8%89%E5%B9%B3%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B1-22-25",
+       "quote": "월요일 오전 8:00~오후 7:30, 영업 중 (임시휴업 표시 없음)"
       }
      ],
      "checked": [
@@ -21,9 +26,8 @@
       "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E9%96%80%E4%B8%89%E5%B9%B3%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B1-22-25"
      ],
      "failed": [],
-     "notes": "구글 지도 매일 08:00~19:30",
-     "checkedAt": "2026-10-21T09:06:00+09:00",
-     "mode": "FULL"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE"
     }
    }
   },
@@ -32,17 +36,28 @@
    "dates": {
     "2026-11-02": {
      "status": "open",
-     "summary": "TableCheck에서 11/2(월) 예약 날짜 선택 가능=영업일. 2명 1층 카운터 18:00 검색 결과 이용 가능 시간 없음(다른 날짜 목록에도 11/2 없음). 인스타·스토리·구글 지도 휴무 공지 없음",
+     "summary": "TableCheck에서 11/2(월) 날짜 선택 가능=영업일. 2명 1층 카운터 18:00 검색 결과 이용 가능 시간 없음(다른 날짜 목록에도 11/2 없음). 인스타·스토리·구글 지도 휴무 공지 없음",
      "evidence": [
       {
-       "source": "reservation",
-       "url": "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve",
-       "quote": "11월2일(월) 18:00 2명: 선택한 시간에 1층 카운터 이용 가능 시간이 없습니다"
+       "source": "instagram",
+       "url": "https://www.instagram.com/yakitori_oren/",
+       "quote": "게시물 13개(고정 3개 = 2024 개점 안내), 새 게시물 없음. 하이라이트 「🈳10月の空席」「🟥10月のお休み」만 있고 11월 휴무 하이라이트 없음"
       },
       {
        "source": "story",
        "url": "https://www.instagram.com/stories/yakitori_oren/",
-       "quote": "この後1、2名様もしよければお待ちしております (10/20 당일 안내, 13시간 전)"
+       "postedAt": "2026-10-20 20:30경 (19시간 전)",
+       "quote": "この後1、2名様もしよければお待ちしております (10/20 당일 빈자리 안내, 09:00과 같은 1장)"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E9%B3%A5%20%E5%BE%A1%E5%BB%89%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%9B%A3%E6%B3%A21-3-13",
+       "quote": "영업 종료 · 오후 6:00에 영업 시작 / 월요일 오후 6:00~오전 12:00"
+      },
+      {
+       "source": "reservation",
+       "url": "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve",
+       "quote": "11월2일(월) 18:00 2명: 선택한 시간에 1층 카운터 이용 가능 시간이 없습니다 (다른 날짜 목록 11/6~9·11/11, 11/2 없음)"
       }
      ],
      "checked": [
@@ -52,10 +67,9 @@
       "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve"
      ],
      "failed": [],
-     "notes": "08:00과 동일한 스토리 1장. 구글 지도 4.5(48), 오후 6시 영업 시작, 임시휴업 표시 없음. TableCheck(open 근거·빈자리)는 부모가 확인",
-     "checkedAt": "2026-10-21T09:05:43+09:00",
-     "mode": "FULL",
-     "availability": "11/2 2명 카운터 빈자리 없음 (10/21 09:0x 가능 여부 검색)"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE",
+     "availability": "11/2 2명 카운터 빈자리 없음 (10/21 15:3x 가능 여부 검색)"
     }
    }
   },
@@ -69,18 +83,22 @@
       {
        "source": "reservation",
        "url": "https://www.tablecheck.com/ja/shops/yakitori-kibitaki/reserve",
-       "quote": "予約状況 11/2(月) 2名 18:00~23:30 ○"
+       "quote": "予約状況 11/2(月) 18:00~23:30 全て○"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E9%B3%A5%E3%81%8D%E3%81%B3%E3%81%9F%E3%81%8D%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B2-1-10",
+       "quote": "월요일 오후 6:00~오전 12:00, 임시휴업 표시 없음. 소유자 글 2026-10-04 \"10月の店休\" 안내(11월 아님)"
       }
      ],
      "checked": [
       "https://www.tablecheck.com/ja/shops/yakitori-kibitaki/reserve",
       "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E9%B3%A5%E3%81%8D%E3%81%B3%E3%81%9F%E3%81%8D%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B2-1-10"
      ],
-     "availability": "11/2 2명 카운터 빈자리 있음 (18:00~23:30 전부 ○)",
      "failed": [],
-     "notes": "定休日 不定休. 같은 주 10/29(목)·10/31(토) 18:00~21:00 ×, 10/28(수) 휴무 표시. 구글 지도 소유자 글은 10월 휴무 안내(11월 무관)",
-     "checkedAt": "2026-10-21T09:06:00+09:00",
-     "mode": "FULL"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE",
+     "availability": "11/2 2명 카운터 빈자리 있음 (18:00~23:30 전부 ○, 10/21 15:3x)"
     }
    }
   },
@@ -118,17 +136,24 @@
     },
     "2026-11-02": {
      "status": "no_notice",
+     "summary": "11월 휴업일 공지 아직 없음(최신 게시물 10/1 10월 휴업일). 스토리 1장은 10월 달력 재게시. X 휴면. 구글 지도 월·화 08:00~15:00, 수요일 휴무, 임시휴업 표시 없음",
      "evidence": [
       {
        "source": "instagram",
        "url": "https://www.instagram.com/ramenkurumu/",
        "postedAt": "2026-10-01",
-       "quote": "최신 게시물은 10/1 10月の休業日 안내(고정), 11월 휴업일 공지 아직 없음"
+       "quote": "게시물 13개, 최신은 고정된 10/1 「10月の休業日のお知らせ」. 11월 휴업일 게시물 아직 없음 (09:00과 동일)"
       },
       {
        "source": "story",
        "url": "https://www.instagram.com/stories/ramenkurumu/",
-       "quote": "10月 営業日のお知らせ 休業日 10/6(火)·7(水)·8(木)·14(水)·21(水)·28(水) (09:00경 재게시) / 本日はスープ完売のため営業を終了 (10/20분)"
+       "postedAt": "2026-10-21 09:30경 (6시간 전)",
+       "quote": "10 October 営業日のお知らせ 休業日 10月6日(火)・7日(水)・8日(木)・14日(水)・21日(水)・28日(水) — 활성 스토리 1장뿐(10/20 품절 안내 스토리는 만료)"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11",
+       "quote": "월요일 오전 8:00~오후 3:00 / 수요일 휴무, 임시휴업 표시 없음"
       }
      ],
      "checked": [
@@ -138,12 +163,10 @@
       "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11"
      ],
      "failed": [
-      "X @RamenKurumu 최신 글 2025-05 (휴면 계정)"
+      "X @RamenKurumu 최신 글 2025-05-15 (휴면 계정)"
      ],
-     "checkedAt": "2026-10-21T09:05:43+09:00",
-     "mode": "FULL",
-     "summary": "11월 휴업일 공지 아직 없음. 스토리 2장(10/20 품절 안내, 방금 10월 영업일 달력 재게시: 10월 휴무는 수요일 위주+10/6화·10/8목). 구글 지도 수요일 휴무, 임시휴업 표시 없음",
-     "notes": "스토리 2장 판독 완료(captures/20261021-0900/kurumu-story-0,1). 11월 달력은 아직 미게시"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE"
     }
    }
   },
@@ -357,24 +380,33 @@
    "dates": {
     "2026-11-02": {
      "status": "no_notice",
-     "summary": "X에 전날 저녁 \"明日も開国\"(영업)/\"鎖国\"(휴무)를 매일 공지. 최신은 10/20 \"明日も開国\"(10/21분), 11/2 공지는 11/1 저녁에 나옴. 타베로그 12:00~21:30 不定休·売り切れ次第終了. 구글 지도 휴업 표시 없음",
+     "summary": "X 최신 10/20 \"明日も開国\"(10/21분), 11/2 공지는 11/1 저녁에 나옴. 타베로그 12:00~21:30 不定休·売り切れ次第終了. 구글 지도 월 12:00~21:30, 휴업 표시 없음",
      "evidence": [
       {
        "source": "x",
        "url": "https://x.com/perrynoikuradon/status/2112484530871525738",
-       "postedAt": "2026-10-20",
-       "quote": "明日も開国します✨ 全ての具材が入荷です (10/21분)"
+       "postedAt": "2026-10-20T19:02:14+09:00",
+       "quote": "明日も開国します✨ 全ての具材が入荷です"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BA%E3%82%8A%E3%83%BC%E3%81%AE%E3%81%84%E3%81%8F%E3%82%89%E4%B8%BC%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B2-2-7",
+       "quote": "영업 중 · 오후 9:30에 영업 종료 / 월요일 오후 12:00~9:30, 임시휴업·폐업 표시 없음"
+      },
+      {
+       "source": "web",
+       "url": "https://tabelog.com/osaka/A2701/A270202/27001446/",
+       "quote": "12:00 - 21:30 売り切れ次第終了 定休日 不定休"
       }
      ],
      "checked": [
       "https://x.com/perrynoikuradon",
-      "https://tabelog.com/osaka/A2701/A270202/27001446/",
-      "https://www.google.com/maps/search/?api=1&query=%E3%81%BA%E3%82%8A%E3%83%BC%E3%81%AE%E3%81%84%E3%81%8F%E3%82%89%E4%B8%BC%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B2-2-7"
+      "https://www.google.com/maps/search/?api=1&query=%E3%81%BA%E3%82%8A%E3%83%BC%E3%81%AE%E3%81%84%E3%81%8F%E3%82%89%E4%B8%BC%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B2-2-7",
+      "https://tabelog.com/osaka/A2701/A270202/27001446/"
      ],
      "failed": [],
-     "notes": "변화 없음(08:00과 동일). 장기 휴업 공지 없음",
-     "checkedAt": "2026-10-21T09:03:00+09:00",
-     "mode": "FULL"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE"
     }
    }
   },
@@ -466,12 +498,17 @@
    "dates": {
     "2026-11-02": {
      "status": "no_notice",
-     "summary": "타베로그 11:30~23:30, 定休日 今のところ元旦のみ. 구글 지도 월 11:30~23:30, 휴업 표시 없음",
+     "summary": "타베로그 11:30~23:30, 定休日 元旦のみ. 구글 지도 월 11:30~23:30, 휴업 표시 없음",
      "evidence": [
       {
        "source": "web",
        "url": "https://tabelog.com/osaka/A2701/A270201/27053278/",
-       "quote": "11:30-23:30 定休日 今のところ元旦のみ"
+       "quote": "11:30～23:30(L.O.23:00) 定休日 今のところ元旦のみ"
+      },
+      {
+       "source": "gmaps",
+       "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%83%B3%E3%82%B1%20%E5%BF%83%E6%96%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B1-2-22",
+       "quote": "월요일 오전 11:30~오후 11:30, 영업 중"
       }
      ],
      "checked": [
@@ -479,8 +516,8 @@
       "https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%83%B3%E3%82%B1%20%E5%BF%83%E6%96%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B1-2-22"
      ],
      "failed": [],
-     "checkedAt": "2026-10-21T09:06:00+09:00",
-     "mode": "FULL"
+     "checkedAt": "2026-10-21T15:33:10+09:00",
+     "mode": "MANUAL_DATE"
     }
    }
   },
@@ -535,8 +572,10 @@
   }
  },
  "manualCheck": {
-  "state": "in_progress",
+  "state": "done",
   "scope": "2026-11-02",
-  "startedAt": "2026-10-21T15:31:04+09:00"
+  "startedAt": "2026-10-21T15:31:04+09:00",
+  "finishedAt": "2026-10-21T15:33:10+09:00",
+  "summary": "조회 6건, 제외 0건, 새 공지 0건"
  }
 }
