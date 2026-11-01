@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:06:16+09:00",
+  "updatedAt": "2026-11-01T22:36:42+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -698,7 +698,9 @@
     }
   },
   "doneSyncAt": "2026-10-21T01:17:28+09:00",
-  "choices": {},
+  "choices": {
+    "1102-lunch": "gokai"
+  },
   "bookings": {
     "kitan|2026-11-03": {
       "state": "booked",
@@ -729,5 +731,6 @@
     "finishedAt": "2026-10-21T15:33:10+09:00",
     "summary": "조회 6건, 제외 0건, 새 공지 0건"
   },
-  "vacancies": []
+  "vacancies": [],
+  "choicesAt": "2026-11-01T22:36:42+09:00"
 }
