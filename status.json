@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T11:47:27+09:00",
+  "updatedAt": "2026-11-01T21:06:16+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -7,17 +7,18 @@
       "dates": {
         "2026-11-02": {
           "status": "no_notice",
-          "summary": "黒門市場店 공지 최신 글 여전히 9/25 JAZZ 라이브(11/8), 11/2 휴업·시간변경 공지 없음(마지막 휴업 공지는 6/17분). 구글 지도 임시휴업 표시 없음(일 19:30 종료 표시, 요일별 표 펼침 안 됨), 소유자 글(2일 전) 영업시간 8:00~20:00",
+          "summary": "변화 없음. 黒門市場店 공지 최신 여전히 9/25 JAZZ 라이브(11/8), 11/2 휴업·시간변경 공지 없음. 구글 지도 '영업 종료·월 오전 8:00 영업 시작', 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "web",
               "url": "https://kuromon-sanpei.co.jp/category/event/kuromon/",
-              "quote": "최신 2026/9/25 【告知】晩秋のJAZZライブ開催(11/8), 11/2 관련 공지 없음"
+              "postedAt": "2026-09-25",
+              "quote": "최신 【告知】晩秋のJAZZライブ開催(11/8), 11/2 관련 공지 없음 (마지막 休業 공지는 6/17분)"
             },
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E9%96%80%E4%B8%89%E5%B9%B3%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B1-22-25",
-              "quote": "영업 중 · 오후 7:30에 영업 종료, 소유자 제공(2일 전) 營業時間 8:00～20:00, 임시휴업 표시 없음"
+              "quote": "영업 종료 · 월 오전 8:00에 영업 시작, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -26,7 +27,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E9%96%80%E4%B8%89%E5%B9%B3%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B1-22-25"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -35,13 +36,14 @@
       "name": "야키토리 오렌",
       "dates": {
         "2026-11-02": {
+          "availability": "11/2 2명 1층 카운터 18:00 빈자리 없음(가능 여부 검색, 다른 날짜 11/6·9·11·14·16·17·20·21만 가능)",
           "status": "open",
-          "summary": "인스타 게시물 13개 그대로, 하이라이트 10月の空席·10月のお休み만(11月のお休み 없음). 활성 스토리 없음. 구글 지도 월 18:00~24:00, 임시휴업 표시 없음. TableCheck 11/2 영업일 표시(18:00·20:30·21:00 시간대), 1층 카운터 18:00 2명 빈자리 없음",
+          "summary": "변화 없음. 인스타 게시물 13개 그대로(새 글 없음), 하이라이트 10月の空席·10月のお休み만(11月のお休み 없음), 활성 스토리 없음 → 빈자리 안내 없음. 구글 지도 월 18:00~24:00, 임시휴업 표시 없음 (TableCheck 빈자리는 부모 확인). TableCheck 11/2 영업일 표시(18:00·20:30·21:00), 1층 카운터 18:00 2명 빈자리 없음",
           "evidence": [
             {
               "source": "instagram",
               "url": "https://www.instagram.com/yakitori_oren/",
-              "quote": "새 게시물 없음(13개), 하이라이트 🈳10月の空席·🟥10月のお休み만, 11月のお休み 없음"
+              "quote": "게시물 13개 그대로, 하이라이트 🈳10月の空席·🟥10月のお休み만, 11月のお休み 없음"
             },
             {
               "source": "story",
@@ -56,7 +58,7 @@
             {
               "source": "reservation",
               "url": "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve",
-              "quote": "11/2(월) 18:00 2명 1층 카운터: 선택한 시간에 1층 카운터 이용 가능 시간이 없습니다 (다른 날짜 11/6·11·14·16·17·20·21만 가능)"
+              "quote": "11/2(월) 18:00 2명 1층 카운터: 선택한 시간에 1층 카운터 이용 가능 시간이 없습니다 (다른 날짜 11/6·9·11·14·16·17·20·21만 가능)"
             }
           ],
           "checked": [
@@ -66,9 +68,8 @@
             "https://www.tablecheck.com/ko/shops/yakitori-oren/reserve"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
-          "mode": "FULL",
-          "availability": "11/2 2명 1층 카운터 18:00 빈자리 없음(가능 여부 검색, 다른 날짜 11/6·11·14·16·17·20·21만 가능)"
+          "checkedAt": "2026-11-01T21:06:16+09:00",
+          "mode": "FULL"
         }
       }
     },
@@ -76,13 +77,14 @@
       "name": "炭火焼鳥きびたき",
       "dates": {
         "2026-11-02": {
+          "availability": "11/2 2명 카운터 18:00~20:00 ×, 20:30~23:30 ○ (11/1 21시 확인, 이미 19:00 예약 완료)",
           "status": "open",
-          "summary": "TableCheck 予約状況 표에서 11/2(월) 2명 18:00~20:00 ×, 20:30~23:30 ○ (영업일 표시, 이미 19:00 예약 완료). 구글 지도 월 18:00~24:00, 휴업 표시 없음",
+          "summary": "변화 없음. TableCheck 予約状況 표 11/2(월) 2명 카운터 18:00~20:00 ×, 20:30~23:30 ○ (영업일 표시, 이미 19:00 예약 완료). 구글 지도 월 18:00~24:00, 휴업 표시 없음",
           "evidence": [
             {
               "source": "reservation",
               "url": "https://www.tablecheck.com/ja/shops/yakitori-kibitaki/reserve",
-              "quote": "人数 2 → 11/2(月) 18:00~20:00 ×, 20:30~23:30 ○ (11/1 日 day-closed)"
+              "quote": "人数 2・カウンター席 → 11/2(月) 18:00~20:00 ×, 20:30~23:30 ○ (11/1 日 day-closed)"
             },
             {
               "source": "gmaps",
@@ -95,8 +97,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%E9%B3%A5%E3%81%8D%E3%81%B3%E3%81%9F%E3%81%8D%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B2-1-10"
           ],
           "failed": [],
-          "availability": "11/2 2명 18:00~20:00 ×, 20:30~23:30 ○ (11/1 09시 확인, 이미 19:00 예약 완료)",
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -105,25 +106,26 @@
       "name": "라멘 쿠루무",
       "dates": {
         "2026-11-03": {
-          "status": "no_notice",
-          "summary": "11월 휴업일 공지 아직 없음(11/3 화·문화의 날 확인 필요). 스토리 새 장면은 11/1 당일 영업 안내뿐. X 휴면. 구글 지도 화(문화의 날) 08:00~15:00(시간 다를 수 있음 표시), 임시휴업 표시 없음",
+          "status": "open",
+          "summary": "새로 11월 휴업일 공지 게시(11/1 20:58, 고정): 휴업 11/4·11·18·25(수)뿐 → 11/3(화·문화의 날) 영업일. 스토리 2장은 11/1 당일 영업·품절 안내뿐. X 휴면. 구글 지도 화 08:00~15:00(시간 다를 수 있음)",
           "evidence": [
             {
               "source": "instagram",
-              "url": "https://www.instagram.com/ramenkurumu/",
-              "quote": "게시물 13개 그대로, 고정 최신 10月の休業日のお知らせ(11월분 미게시)"
+              "url": "https://www.instagram.com/p/DfMraMNgvCv/",
+              "postedAt": "2026-11-01T20:58:32+09:00",
+              "quote": "11月 営業日のお知らせ 달력: 休業日 11月4日(水)・11日(水)・18日(水)・25日(水) → 11/2(월)·11/3(화) 휴업 표시 없음(영업일)"
             },
             {
               "source": "story",
               "url": "https://www.instagram.com/stories/ramenkurumu/",
-              "postedAt": "2026-11-01T07:00+09:00(약 2시간 전)",
-              "quote": "✨11.1[日曜日]✨ 営業時間 8:00~15:00 ※スープ無くなり次第終了 / 本日のお知らせ 極太手揉み麺+100円 つけそば数量限定"
+              "postedAt": "2026-11-01T06:29+09:00",
+              "quote": "✨11.1[日曜日]✨ 営業時間 8:00~15:00 ※スープ無くなり次第終了 (11/1 당일)"
             },
             {
               "source": "story",
-              "url": "https://www.instagram.com/stories/ramenkurumu/4019786057041205953/",
-              "postedAt": "약 20시간 전(10/31 낮)",
-              "quote": "本日はスープ完売のため、営業を終了いたします (10/31 당일 조기 품절, 지난 회차 판독분)"
+              "url": "https://www.instagram.com/stories/ramenkurumu/",
+              "postedAt": "2026-11-01T12:43+09:00",
+              "quote": "本日はスープ完売のため、営業を終了いたします (11/1 당일 조기 품절, 방문일 무관)"
             },
             {
               "source": "x",
@@ -133,39 +135,41 @@
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11",
-              "quote": "월·화(문화의 날) 08:00~15:00, 임시휴업 표시 없음"
+              "quote": "월 08:00~15:00, 화(문화의 날) 08:00~15:00(시간 다를 수 있음), 수 휴무, 임시휴업 표시 없음"
             }
           ],
           "checked": [
             "https://www.instagram.com/ramenkurumu/",
+            "https://www.instagram.com/p/DfMraMNgvCv/",
             "https://www.instagram.com/stories/ramenkurumu/",
             "https://x.com/RamenKurumu",
             "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         },
         "2026-11-02": {
-          "status": "no_notice",
-          "summary": "11월 휴업일 공지 아직 없음(고정 최신 10월 휴업일). 스토리 새 장면은 11/1(일) 당일 영업 안내(8:00~15:00, 스프 소진 시 종료)뿐, 10/31 품절 조기종료 장면은 기존. X 휴면. 구글 지도 월 08:00~15:00, 임시휴업 표시 없음",
+          "status": "open",
+          "summary": "새로 11월 휴업일 공지 게시(11/1 20:58, 고정): 휴업 11/4·11·18·25(수)뿐 → 11/2(월) 영업일. 스토리 2장은 11/1 당일 영업·품절 안내뿐. X 휴면. 구글 지도 월 08:00~15:00",
           "evidence": [
             {
               "source": "instagram",
-              "url": "https://www.instagram.com/ramenkurumu/",
-              "quote": "게시물 13개 그대로, 고정 최신 10月の休業日のお知らせ(11월분 미게시)"
+              "url": "https://www.instagram.com/p/DfMraMNgvCv/",
+              "postedAt": "2026-11-01T20:58:32+09:00",
+              "quote": "11月 営業日のお知らせ 달력: 休業日 11月4日(水)・11日(水)・18日(水)・25日(水) → 11/2(월)·11/3(화) 휴업 표시 없음(영업일)"
             },
             {
               "source": "story",
               "url": "https://www.instagram.com/stories/ramenkurumu/",
-              "postedAt": "2026-11-01T07:00+09:00(약 2시간 전)",
-              "quote": "✨11.1[日曜日]✨ 営業時間 8:00~15:00 ※スープ無くなり次第終了 / 本日のお知らせ 極太手揉み麺+100円 つけそば数量限定"
+              "postedAt": "2026-11-01T06:29+09:00",
+              "quote": "✨11.1[日曜日]✨ 営業時間 8:00~15:00 ※スープ無くなり次第終了 (11/1 당일)"
             },
             {
               "source": "story",
-              "url": "https://www.instagram.com/stories/ramenkurumu/4019786057041205953/",
-              "postedAt": "약 20시간 전(10/31 낮)",
-              "quote": "本日はスープ完売のため、営業を終了いたします (10/31 당일 조기 품절, 지난 회차 판독분)"
+              "url": "https://www.instagram.com/stories/ramenkurumu/",
+              "postedAt": "2026-11-01T12:43+09:00",
+              "quote": "本日はスープ完売のため、営業を終了いたします (11/1 당일 조기 품절, 방문일 무관)"
             },
             {
               "source": "x",
@@ -175,17 +179,18 @@
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11",
-              "quote": "월·화(문화의 날) 08:00~15:00, 임시휴업 표시 없음"
+              "quote": "월 08:00~15:00, 화(문화의 날) 08:00~15:00(시간 다를 수 있음), 수 휴무, 임시휴업 표시 없음"
             }
           ],
           "checked": [
             "https://www.instagram.com/ramenkurumu/",
+            "https://www.instagram.com/p/DfMraMNgvCv/",
             "https://www.instagram.com/stories/ramenkurumu/",
             "https://x.com/RamenKurumu",
             "https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%82%AF%E3%83%AB%E3%83%A0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E5%8C%97%E5%A0%80%E6%B1%9F1-9-11"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -195,13 +200,13 @@
       "dates": {
         "2026-11-03": {
           "status": "no_notice",
-          "summary": "공지 목록 최신 여전히 10/28 온라인숍 재개(매장 무관), 난바본점 휴업 공지 없음. 본점 1F 9:00~20:00, 구글 지도 화(문화의 날) 09:00~20:00, 휴업 표시 없음",
+          "summary": "변화 없음(새 공지 11/1 19:37 グランフロント 陸カフェfika 예약시간 변경은 난바본점 무관). 본점 1F 9:00~20:00, 구글 지도 화(문화의 날) 09:00~20:00, 휴업 표시 없음",
           "evidence": [
             {
               "source": "web",
               "url": "https://www.rikuro.co.jp/newsother",
-              "postedAt": "2026-10-28",
-              "quote": "オンラインショップ再開のお知らせ (최신), なんば本店 휴업 공지 없음"
+              "postedAt": "2026-11-01T19:37+09:00",
+              "quote": "陸カフェfika ご予約時間変更のお知らせ(12/1부터, 그랑프런트점) — 난바본점 휴업 공지 없음"
             },
             {
               "source": "web",
@@ -220,7 +225,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E3%82%8A%E3%81%8F%E3%82%8D%E3%83%BC%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E3%81%AE%E5%BA%97%20%E3%81%AA%E3%82%93%E3%81%B0%E6%9C%AC%E5%BA%97"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -230,29 +235,29 @@
       "dates": {
         "2026-11-03": {
           "status": "open",
-          "summary": "11/3 12:00 2명 타베로그 예약 완료(기존). 인스타 새 게시물 없음(최신 10/31 CASA JULIÁN 릴스), 새 스토리 1장(약 11시간 전, 손님 기념사진 thank you for coming)뿐, 휴무 공지 없음. 타베로그 11:00-15:00/17:00-23:00 不定休, 휴업 공지 없음. 구글 지도 화(문화의 날) 11:00~14:30·17:00~21:30, 임시휴업 표시 없음",
+          "summary": "11/3 12:00 예약 완료(기존). 인스타 새 게시물 2개(11/1 11:30 CASA JULIÁN 감사글)·스토리 4장(손님 사진·101 BEST 공유·Back to reality·enjoy Sunday football) 모두 휴무 무관. 타베로그 11:00-15:00/17:00-23:00 不定休, 휴업 공지 없음. 구글 지도 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "reservation",
               "url": "https://tabelog.com/osaka/A2701/A270202/27128100/",
-              "quote": "営業時間 11:00-15:00 / 17:00-23:00, 定休日 不定休 (휴업 공지 없음, 11/3 12:00 예약 완료)"
+              "quote": "営業時間 11:00 - 15:00 / 17:00 - 23:00, 定休日 不定休 (휴업 공지 없음, 11/3 12:00 예약 완료)"
             },
             {
               "source": "instagram",
-              "url": "https://www.instagram.com/kitan_yakiniku/reel/DfJMEwuy1Xw/",
-              "postedAt": "2026-10-31T12:36:42+09:00",
-              "quote": "Thank you from the bottom of my heart... (CASA JULIÁN 행사 마무리, 휴무 무관)"
+              "url": "https://www.instagram.com/kitan_yakiniku/p/DfLpYKgmYsS/",
+              "postedAt": "2026-11-01T11:30:40+09:00",
+              "quote": "CASA JULIÁN / THE WORLD'S 101 BEST STEAK RESTAURANTS 감사 글(휴무 무관)"
             },
             {
               "source": "story",
               "url": "https://www.instagram.com/stories/kitan_yakiniku/",
-              "postedAt": "약 11시간 전(10/31 22시경)",
-              "quote": "@asuka_01_15 thank you for coming @kitan_yakiniku (휴무 공지 아님)"
+              "postedAt": "2026-11-01T19:53+09:00",
+              "quote": "스토리 4장(10/31 21:39~11/1 19:53): thank you for coming / 101 BEST 공유 / Back to reality / enjoy Sunday football, 휴무 공지 없음"
             },
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E3%81%8D%E3%81%9F%E3%82%93%20%E6%B3%95%E5%96%84%E5%AF%BA",
-              "quote": "화요일(문화의 날) 오전 11:00~오후 2:30, 오후 5:00~9:30, 임시휴업 표시 없음"
+              "quote": "일 오후 9:30 영업 종료·월 11:00 영업 시작, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -262,7 +267,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%20%E3%81%8D%E3%81%9F%E3%82%93%20%E6%B3%95%E5%96%84%E5%AF%BA"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -272,17 +277,17 @@
       "dates": {
         "2026-11-03": {
           "status": "unknown",
-          "summary": "구글 지도에 화요일(문화의 날, 11/3) 휴무 표시(월·화 휴무), 공식 확인 필요 (타베로그는 火~日 11:00-14:00·17:00-21:00, 定休日 月・第2火曜 → 11/3 첫째 화는 해당 없음). 이전과 동일, 새 공지 없음",
+          "summary": "변화 없음. 구글 지도에 화요일(문화의 날, 11/3) 휴무 표시(월·화 휴무), 공식 확인 필요 (타베로그는 火~日 11:00-14:00·17:00-21:00, 定休日 月・第2火曜 → 11/3 첫째 화는 해당 없음). 새 공지 없음",
           "evidence": [
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E9%B0%BB%20%E3%81%AB%E3%81%97%E3%81%AF%E3%82%89%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%97%E6%96%B0%E7%94%BA4-12",
-              "quote": "월요일 휴무일 / 화요일(문화의 날) 휴무일"
+              "quote": "월요일 휴무일 / 화요일(문화의 날) 휴무일 (영업시간이 다를 수 있음), 수~일 11:00~13:30·17:00~20:30"
             },
             {
               "source": "web",
               "url": "https://tabelog.com/osaka/A2701/A270104/27081196/",
-              "quote": "営業時間 火・水・木・金・土・日 11:00-14:00 17:00-21:00 / 定休日 月 ■ 第２火曜日"
+              "quote": "営業時間 火・水・木・金・土・日 11:00 - 14:00 / 17:00 - 21:00, 定休日 月 ■ 第２火曜日"
             }
           ],
           "checked": [
@@ -290,7 +295,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E9%B0%BB%20%E3%81%AB%E3%81%97%E3%81%AF%E3%82%89%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%97%E6%96%B0%E7%94%BA4-12"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -300,12 +305,12 @@
       "dates": {
         "2026-11-04": {
           "status": "no_notice",
-          "summary": "인스타 게시물 20개 그대로(최신 9/4 9/8 영업 재개·정리권 10:05경). 11월 휴업 공지 없음, 활성 스토리 없음. 구글 지도 수 11:30~13:00(금·토·일·화(문화의 날) 휴무), 임시휴업 표시 없음",
+          "summary": "변화 없음. 인스타 게시물 20개 그대로(최신 9/4 9/8 영업 재개·정리권 10:05경), 11월 휴업 공지 없음, 활성 스토리 없음. 구글 지도 수 11:30~13:00(금·토·일·화(문화의 날) 휴무), 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "instagram",
               "url": "https://www.instagram.com/hashimotoyaspice/",
-              "quote": "새 게시물 없음(20개), 최신 9月8日(火)より営業を再開・整理券10時05分頃"
+              "quote": "게시물 20개 그대로, 최신 9/4 「9月8日(火)より営業を再開…整理券配布時間を10時05分頃〜」, 11월 휴업 공지 없음"
             },
             {
               "source": "story",
@@ -324,7 +329,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E6%A9%8B%E6%9C%AC%E5%B1%8B%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%97%E8%88%B9%E5%A0%B42-2-21"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -334,12 +339,13 @@
       "dates": {
         "2026-11-04": {
           "status": "no_notice",
-          "summary": "인스타 새 글 없음(최신 10/31 컵 소개), 휴업 공지 없음. 공식 페이지 월-목 10:00~23:30(첫째 목 12시 개점, 11/4 수와 무관). 구글 지도 수 10:00~23:30, 휴업 표시 없음",
+          "summary": "변화 없음. 인스타 새 글 없음(최신 10/31 컵 소개), 휴업 공지 없음. 공식 월-목 10:00~23:30(첫째 목 12시, 11/4 수 무관). 구글 지도 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "instagram",
-              "url": "https://www.instagram.com/le.premier.cafe/",
-              "quote": "최신 10月31日(土) 大倉陶園 블루로즈 컵 소개, 휴업 공지 없음"
+              "url": "https://www.instagram.com/p/DfJEOkfmCZY/",
+              "postedAt": "2026-10-31",
+              "quote": "10月31日(土) 大倉陶園ブルーローズ カップ紹介 (휴업 공지 없음)"
             },
             {
               "source": "web",
@@ -349,7 +355,7 @@
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=Le%20Premier%20Cafe%20%E5%BF%83%E6%96%8E%E6%A9%8B%E6%9C%AC%E5%BA%97",
-              "quote": "수요일 오전 10:00~오후 11:30, 임시휴업 표시 없음"
+              "quote": "영업 중 · 오후 11:30에 영업 종료, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -358,7 +364,7 @@
             "https://www.google.com/maps/search/?api=1&query=Le%20Premier%20Cafe%20%E5%BF%83%E6%96%8E%E6%A9%8B%E6%9C%AC%E5%BA%97"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -368,18 +374,18 @@
       "dates": {
         "2026-11-04": {
           "status": "no_notice",
-          "summary": "X 새 글 없음(최신 10/31 「本日、土曜日は12時30分からオープンします」 당일 안내, 11/4 무관). 구글 지도 수 11:30~15:00·19:00~21:00, 월요일 휴무, 임시휴업 표시 없음",
+          "summary": "X 새 글 11/1 10:16 「本日、日曜日は12時からオープンします。」(11/1 당일 안내, 11/4 무관). 11/4 관련 공지 없음. 구글 지도 수 11:30~15:00·19:00~21:00, 월 휴무, 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "x",
-              "url": "https://x.com/In0jGSacvMh3Oyl/status/2116345646395585014",
-              "postedAt": "2026-10-31T10:44:56+09:00",
-              "quote": "本日、土曜日は12時30分からオープンします (11/4 무관)"
+              "url": "https://x.com/In0jGSacvMh3Oyl/status/2116700911427072129",
+              "postedAt": "2026-11-01T10:16:38+09:00",
+              "quote": "本日、日曜日は12時からオープンします。 (11/4 무관)"
             },
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E4%B8%AD%E3%81%AE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%9D%B1%E6%9C%AC%E7%94%BA1-18-23",
-              "quote": "수요일 오전 11:30~오후 3:00·오후 7:00~9:00, 임시휴업 표시 없음"
+              "quote": "수요일 오전 11:30~오후 3:00·오후 7:00~9:00, 월요일 휴무, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -387,7 +393,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E4%B8%AD%E3%81%AE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%9D%B1%E6%9C%AC%E7%94%BA1-18-23"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -397,7 +403,7 @@
       "dates": {
         "2026-11-05": {
           "status": "no_notice",
-          "summary": "중앙도매시장 2026 달력 11/5(목) 개장일 그대로(11/1·3·8 휴장, 11/4 청과부만 휴업, 11/11 임시휴업). 가게 공식 사이트 공지 없음. 구글 지도 목 06:15~14:00(일 휴무), 휴업 표시 없음",
+          "summary": "변화 없음. 중앙도매시장 2026 달력 11/5(목) 개장일 그대로(11/1·3·8 휴장, 11/4 청과부만 휴업, 11/11 임시휴업). 가게 공식 사이트 공지 없음. 구글 지도 목 06:15~14:00(일 휴무), 휴업 표시 없음",
           "evidence": [
             {
               "source": "web",
@@ -422,7 +428,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%A0%B4%20%E3%82%91%E3%82%93%E3%81%A9%E3%81%86%20%E5%A4%A7%E9%98%AA%E5%B8%82%E7%A6%8F%E5%B3%B6%E5%8C%BA%E9%87%8E%E7%94%B01-1-86"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -432,18 +438,18 @@
       "dates": {
         "2026-11-05": {
           "status": "no_notice",
-          "summary": "본점 2026 휴업일 10/6·10/20·11/10·11/17·12/31 → 11/5(목) 미포함. 토픽 새 글 11/1 煮込み麺 판매 안내뿐, 휴업 공지 없음. 구글 지도 목 10:00~21:30",
+          "summary": "변화 없음. 본점 2026 휴업일 10/6·10/20·11/10·11/17·12/31 → 11/5(목) 미포함. 토픽 새 글 11/1 消防コラボ·煮込み麺뿐, 휴업 공지 없음. 구글 지도 목 10:00~21:30",
           "evidence": [
             {
               "source": "web",
               "url": "https://www.551horai.co.jp/shop/list/13/",
-              "quote": "2026年【10/6(火)・20(火)・11/10(火)・17(火)・12/31(水)】 휴업"
+              "quote": "定休日 第１・３火曜日 2026年【10/6(火)・20(火)・11/10(火)・17(火)・12/31(水)】"
             },
             {
               "source": "web",
               "url": "https://www.551horai.co.jp/topics/",
               "postedAt": "2026-11-01",
-              "quote": "煮込み麺がある時！11/1～ (휴업 공지 아님)"
+              "quote": "消防コラボがある時！ / 煮込み麺がある時！11/1～ (휴업 공지 없음)"
             },
             {
               "source": "gmaps",
@@ -457,7 +463,7 @@
             "https://www.google.com/maps/search/?api=1&query=551%E8%93%AC%E8%8E%B1%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%9B%A3%E6%B3%A23-6-3"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -467,19 +473,19 @@
       "dates": {
         "2026-11-02": {
           "status": "closed",
-          "summary": "X 새 글 없음(09시 기준 최신은 10/31 18:39 「明日は時化でウニ末入荷です よってペリーは鎖国します」 → 11/1 휴업). 10/30 「明後日以降少し鎖国します」 이후 開国 공지 없음 → 11/2(월)도 휴업 가능성 높음(11/1 저녁 공지로 재확인 필요). 타베로그 12:00-21:30 不定休, 구글 지도 월 12:00~21:30(평소 시간만)",
+          "summary": "X 11/1 16:32 「明日も鎖国です」 새 글로 11/2(월) 휴업 확정(이전엔 10/31 글 기반 추정). 이후 開国 글 없음. 타베로그 12:00-21:30 不定休, 구글 지도는 '월 12:00 영업 시작' 평소 표시(공지 미반영)",
           "evidence": [
+            {
+              "source": "x",
+              "url": "https://x.com/perrynoikuradon/status/2116795511948910986",
+              "postedAt": "2026-11-01T16:32:32+09:00",
+              "quote": "明日も鎖国です😪 ごめんなさい時化でウニが買えませんでした"
+            },
             {
               "source": "x",
               "url": "https://x.com/perrynoikuradon/status/2116465027427299617",
               "postedAt": "2026-10-31T18:39:19+09:00",
               "quote": "明日は時化でウニ末入荷です よってペリーは鎖国します😪"
-            },
-            {
-              "source": "x",
-              "url": "https://x.com/perrynoikuradon/status/2116048500031201454",
-              "postedAt": "2026-10-30T15:04:11+09:00",
-              "quote": "時化でウニが買えませんでしたので 明後日以降少し鎖国します😪"
             },
             {
               "source": "web",
@@ -489,7 +495,7 @@
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BA%E3%82%8A%E3%83%BC%E3%81%AE%E3%81%84%E3%81%8F%E3%82%89%E4%B8%BC%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B2-2-7",
-              "quote": "월요일 오후 12:00~9:30, 임시휴업 표시 없음(평소 시간)"
+              "quote": "곧 영업 종료 오후 9:30 · 월 오후 12:00에 영업 시작 (임시휴업 표시 없음, 평소 표시)"
             }
           ],
           "checked": [
@@ -497,8 +503,10 @@
             "https://tabelog.com/osaka/A2701/A270202/27001446/",
             "https://www.google.com/maps/search/?api=1&query=%E3%81%BA%E3%82%8A%E3%83%BC%E3%81%AE%E3%81%84%E3%81%8F%E3%82%89%E4%B8%BC%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9D%B1%E5%BF%83%E6%96%8E%E6%A9%8B2-2-7"
           ],
-          "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "failed": [
+            "tabelog 첫 시도 '잠시만 기다리십시오' 대기 화면 → 재시도 1회로 성공"
+          ],
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -508,7 +516,7 @@
       "dates": {
         "2026-11-03": {
           "status": "open",
-          "summary": "인스타 10/31 23:35 KST 「11月のお休みのお知らせ」 게시: 11월 휴무 1·8·10·15·22·23·29일 → 11/3(화·문화의 날)은 휴무 아님(영업). 11/3 20:00 2명 타베로그 예약 완료(기존). 타베로그 월~토 17:00~23:00·일 휴무, 구글 지도 화(문화의 날) 17:00~23:00, 임시휴업 표시 없음. 활성 스토리 1장(10/31 23:18)은 '스토리 보기' 확인 화면을 못 넘겨 판독 못함",
+          "summary": "변화 없음. 인스타 새 게시물 없음(최신 비고정 글은 여전히 10/31 〈11月のお休みのお知らせ〉, 휴무 1·8·10·15·22·23·29 → 11/3 영업). 이번엔 활성 스토리 1장 판독 성공(10/31 23:18, 食べログ居酒屋WEST百名店2026 감사, 휴무 무관). 타베로그 월~토 17:00-23:00·일 휴무, 구글 지도 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "instagram",
@@ -517,14 +525,20 @@
               "quote": "〈11月のお休みのお知らせ〉1日(日)、8日(日)、10日(火)、15日(日)、22日(日)、23日(月祝)、29日(日)"
             },
             {
+              "source": "story",
+              "url": "https://www.instagram.com/stories/oden_tetsu/",
+              "postedAt": "2026-10-31T23:18:52+09:00",
+              "quote": "✨食べログ 居酒屋WEST 百名店 2026✨ ありがとうございます😊 (휴무 공지 아님)"
+            },
+            {
               "source": "web",
               "url": "https://tabelog.com/osaka/A2701/A270202/27050565/",
-              "quote": "月・火・水・木・金・土 17:00 - 23:00、日 定休日、不定休はインスタ"
+              "quote": "月・火・水・木・金・土 17:00 - 23:00、日 定休日、不定休はインスタグラム"
             },
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E8%82%B4%E5%93%B2%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B2-7-27",
-              "quote": "화요일(문화의 날) 오후 5:00~11:00, 임시휴업 표시 없음"
+              "quote": "영업 종료 · 월 오후 5:00에 영업 시작, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -533,10 +547,11 @@
             "https://tabelog.com/osaka/A2701/A270202/27050565/",
             "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E8%82%B4%E5%93%B2%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B2-7-27"
           ],
-          "failed": [
-            "https://www.instagram.com/stories/oden_tetsu/ : 활성 스토리 1장(2026-10-31 23:18 KST) 있으나 '스토리 보기' 확인 버튼 클릭이 반영되지 않아 판독 불가(재시도 1회 포함). 11월 휴무 달력 게시물로 결론 가능"
+          "failed": [],
+          "captures": [
+            "monitor/captures/20261101-2100/tetsu-1.png"
           ],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -546,7 +561,7 @@
       "dates": {
         "2026-11-04": {
           "status": "no_notice",
-          "summary": "타베로그 08:00~23:00, 구글 지도 수 08:00~10:30·11:00~22:30. 휴업 공지 없음",
+          "summary": "변화 없음. 타베로그 08:00~23:00, 구글 지도 수 08:00~10:30·11:00~22:30. 휴업 공지 없음",
           "evidence": [
             {
               "source": "web",
@@ -564,7 +579,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E7%99%BE%E5%B1%8B%E3%81%A8%E3%81%94%E3%81%AF%E3%82%93%20%E3%82%80%E3%81%8B%E3%81%84%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B9%85%E5%A4%AA%E9%83%8E%E7%94%BA2-3-8"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -574,18 +589,18 @@
       "dates": {
         "2026-11-04": {
           "status": "unknown",
-          "summary": "변화 없음. 인스타 새 글 없음(최신 10/28 11/2 This is Teuchi 이벤트 안내), 활성 스토리 1장(10/31 22:58)도 11/2 This is Teuchi 포스터뿐, X 휴면(최신 2026-02 RT). 타베로그 월~토 07:00-10:00·11:00-15:00, 일·공휴일 휴무, '평일도 매주 1~2일 휴무(인스타 참조)'. 구글 지도 수 07:00~10:00·11:00~15:00. 11월 휴무 공지 없음 → 11/4(수) 휴무 여부 공식 확인 불가",
+          "summary": "변화 없음. 인스타 새 글 없음(최신 10/28 11/2 This is Teuchi 안내), 활성 스토리 1장(10/31 22:58) 그대로 11/2 This is Teuchi 포스터, X 휴면(최신 2026-02 RT). 타베로그 월~토 07:00-10:00·11:00-15:00, '平日も毎週1〜2日は休み(Instagram参照)'. 구글 지도 '월 07:00 영업 시작', 임시휴업 표시 없음. 11월 휴무 공지 없어 11/4(수) 휴무 여부 공식 확인 불가",
           "evidence": [
             {
               "source": "instagram",
-              "url": "https://www.instagram.com/udonbakahiro_kyutaro/",
-              "quote": "새 게시물 없음(최신 2026.11.2(月)「This is Teuchi＃⑦」), 11월 휴무 공지 없음"
+              "url": "https://www.instagram.com/udonbakahiro_kyutaro/p/DfCcg7CBZI8/",
+              "quote": "2026.11.2(月)「This is Teuchi＃⑦」 (최신 글, 11월 휴무 공지 없음)"
             },
             {
               "source": "story",
               "url": "https://www.instagram.com/stories/udonbakahiro_kyutaro/",
               "postedAt": "2026-10-31T22:58:30+09:00",
-              "quote": "This is Teuchi #7 昼の部 11:00-15:00 11/2 포스터 1장뿐"
+              "quote": "This is Teuchi #7 昼の部 11:00-15:00 11/2 포스터 1장"
             },
             {
               "source": "x",
@@ -595,12 +610,12 @@
             {
               "source": "web",
               "url": "https://tabelog.com/osaka/A2701/A270106/27100801/",
-              "quote": "平日も毎週1〜2日は休みがあるので注意 (Instagram参照)"
+              "quote": "月～土 07:00 - 10:00 / 11:00 - 15:00、日・祝日 定休日、不定休あり ※Instagram参照 平日も毎週1〜2日は休みがあるので注意"
             },
             {
               "source": "gmaps",
               "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%20%E4%B9%85%E5%A4%AA%E9%83%8E%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B9%85%E5%A4%AA%E9%83%8E%E7%94%BA3-1-16",
-              "quote": "수요일 오전 7:00~10:00·오전 11:00~오후 3:00, 임시휴업 표시 없음"
+              "quote": "영업 종료 · 월 오전 7:00에 영업 시작, 임시휴업 표시 없음"
             }
           ],
           "checked": [
@@ -611,7 +626,10 @@
             "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%A9%E3%82%93%20%E4%B9%85%E5%A4%AA%E9%83%8E%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B9%85%E5%A4%AA%E9%83%8E%E7%94%BA3-1-16"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "captures": [
+            "monitor/captures/20261101-2100/kyutaro-1.png"
+          ],
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -621,7 +639,7 @@
       "dates": {
         "2026-11-02": {
           "status": "no_notice",
-          "summary": "타베로그 11:30~23:30, 定休日 今のところ元旦のみ. 구글 지도 월 11:30~23:30, 휴업 표시 없음",
+          "summary": "변화 없음. 타베로그 11:30~23:30, 定休日 今のところ元旦のみ. 구글 지도 월 11:30~23:30, 휴업 표시 없음",
           "evidence": [
             {
               "source": "web",
@@ -639,7 +657,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%83%B3%E3%82%B1%20%E5%BF%83%E6%96%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%BF%83%E6%96%8E%E6%A9%8B%E7%AD%8B1-2-22"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
@@ -649,7 +667,7 @@
       "dates": {
         "2026-11-05": {
           "status": "no_notice",
-          "summary": "공식 11:00~22:00(LO 21:00) 무휴, 구글 지도 목 11:00~22:00, 타베로그 11:00~21:00. 임시휴무 공지 없음",
+          "summary": "변화 없음. 공식 11:00~22:00(LO 21:00) 무휴, 구글 지도 목 11:00~22:00, 타베로그 11:00~21:00. 임시휴무 공지 없음",
           "evidence": [
             {
               "source": "web",
@@ -673,7 +691,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E6%B4%A5%E3%81%AE%20%E9%81%93%E9%A0%93%E5%A0%801-4-15"
           ],
           "failed": [],
-          "checkedAt": "2026-11-01T09:04:52+09:00",
+          "checkedAt": "2026-11-01T21:06:16+09:00",
           "mode": "FULL"
         }
       }
