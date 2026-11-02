@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T16:31:20+09:00",
+  "updatedAt": "2026-11-02T16:51:02+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -710,11 +710,9 @@
     }
   },
   "manualCheck": {
-    "state": "done",
-    "scope": "2026-11-02",
-    "startedAt": "2026-10-21T15:31:04+09:00",
-    "finishedAt": "2026-10-21T15:33:10+09:00",
-    "summary": "조회 6건, 제외 0건, 새 공지 0건"
+    "state": "in_progress",
+    "scope": "2026-11-03",
+    "startedAt": "2026-11-02T16:51:02+09:00"
   },
   "vacancies": [],
   "choicesAt": "2026-11-01T22:36:42+09:00"
