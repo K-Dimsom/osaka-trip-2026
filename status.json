@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:02:00+09:00",
+  "updatedAt": "2026-11-04T17:32:00+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -356,19 +356,18 @@
       "dates": {
         "2026-11-04": {
           "status": "open",
-          "summary": "변화 없음(open 유지). X 최신 11/3 15:25 「本日、火曜日の夜営業は…おやすみ…また明日からよろしくお願いいたします」 → 11/4(수)부터 영업 예고, 11/4 새 공지 없음. 구글 지도 「영업 종료 · 오전 11:30에 영업 시작」, 임시휴업 표시 없음",
+          "summary": "변화 없음(open 유지). X 11/4 10:19 「本日、水曜日は11時30分からオープンします。」 이후 야간 휴무·소진 공지 없음. 구글 지도 17:30 「영업 종료 · 오후 7:00에 영업 시작」(점심·저녁 사이 휴식), 임시휴업 표시 없음",
           "evidence": [
             {
               "source": "x",
-              "url": "https://x.com/In0jGSacvMh3Oyl/status/2117503328234144203",
-              "postedAt": "2026-11-03T15:25:09+09:00",
-              "quote": "本日、火曜日の夜営業は昼で食材売り切れの為、おやすみさせて頂きます。また明日からよろしくお願いいたします。"
+              "url": "https://x.com/In0jGSacvMh3Oyl/status/2117788697689210940",
+              "postedAt": "2026-11-04T10:19:06+09:00",
+              "quote": "本日、水曜日は11時30分からオープンします。"
             },
             {
-              "source": "x",
-              "url": "https://x.com/In0jGSacvMh3Oyl/status/2117432527095025971",
-              "postedAt": "2026-11-03T10:43:49+09:00",
-              "quote": "本日、火曜日は11:30〜オープンします。"
+              "source": "gmaps",
+              "url": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E4%B8%AD%E3%81%AE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%9D%B1%E6%9C%AC%E7%94%BA1-18-23",
+              "quote": "영업 종료 · 오후 7:00에 영업 시작"
             }
           ],
           "checked": [
@@ -376,8 +375,8 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E4%B8%AD%E3%81%AE%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0%20%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E9%9D%B1%E6%9C%AC%E7%94%BA1-18-23"
           ],
           "failed": [],
-          "checkedAt": "2026-11-04T09:02:00+09:00",
-          "mode": "FULL"
+          "checkedAt": "2026-11-04T17:32:00+09:00",
+          "mode": "D3_1730"
         }
       }
     },
