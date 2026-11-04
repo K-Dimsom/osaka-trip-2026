@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04/11/2026+09:00",
+  "updatedAt": "2026-11-04T21:01:49+09:00",
   "version": 1,
   "shops": {
     "sanpei": {
@@ -405,7 +405,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%A0%B4%20%E3%82%91%E3%82%93%E3%81%A9%E3%81%86%20%E5%A4%A7%E9%98%AA%E5%B8%82%E7%A6%8F%E5%B3%B6%E5%8C%BA%E9%87%8E%E7%94%B01-1-86"
           ],
           "failed": [],
-          "checkedAt": "2026-11-04T04/11/2026+09:00",
+          "checkedAt": "2026-11-04T21:03:00+09:00",
           "mode": "FULL"
         }
       }
@@ -434,7 +434,7 @@
             "https://www.google.com/maps/search/?api=1&query=551%E8%93%AC%E8%8E%B1%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%9B%A3%E6%B3%A23-6-3"
           ],
           "failed": [],
-          "checkedAt": "2026-11-04T04/11/2026+09:00",
+          "checkedAt": "2026-11-04T21:03:00+09:00",
           "mode": "FULL"
         }
       }
@@ -623,7 +623,7 @@
             "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E6%B4%A5%E3%81%AE%20%E9%81%93%E9%A0%93%E5%A0%801-4-15"
           ],
           "failed": [],
-          "checkedAt": "2026-11-04T04/11/2026+09:00",
+          "checkedAt": "2026-11-04T21:03:00+09:00",
           "mode": "FULL"
         }
       }
